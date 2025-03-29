@@ -35,7 +35,7 @@ def create_directories_and_files(project_name: str, list_of_files: list) -> None
 
 
 if __name__ == "__main__":
-    project_name = "Text-Summarizer"
+    project_name = "textSummarizer"
 
     list_of_files = [
         ".github/workflows/.gitkeep",
