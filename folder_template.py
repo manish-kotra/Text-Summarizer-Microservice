@@ -50,6 +50,7 @@ if __name__ == "__main__":
         f"src/{project_name}/entity/__init__.py",
         f"src/{project_name}/constants/__init__.py",
         f"src/{project_name}/notebooks/trial.ipynb",
+        f"src/{project_name}/logging/__init__.py",
         "config/config.yaml",
         "parameters.yaml",
         "README.md",
