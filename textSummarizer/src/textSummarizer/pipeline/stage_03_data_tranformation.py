@@ -5,7 +5,7 @@ from textSummarizer.logging import logger
 
 class DataTransformationTrainingPipeline:
     def __init__(self):
-        self.config = ConfigurationManager()
+        config = ConfigurationManager()
 
     def main(self):
         try:
