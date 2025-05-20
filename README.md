@@ -1,10 +1,10 @@
-# 📝 Text Summarizer Microservice
+# Text Summarizer Microservice
 
 A Python-based microservice designed to generate concise summaries from large text inputs. Built with modular components, this project facilitates easy integration into larger applications and supports scalable deployment.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Modular Architecture**: Organized codebase with clear separation of concerns.
 - **Summarization Pipeline**: Processes raw text through a series of components to produce summaries.
@@ -14,7 +14,7 @@ A Python-based microservice designed to generate concise summaries from large te
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 text-summarizer-microservice/
@@ -42,7 +42,7 @@ text-summarizer-microservice/
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ Edit `config/config.yaml` and `parameters.yaml` to adjust configurations as need
 
 ---
 
-## 🧪 Usage
+## Usage
 
 ### Running the Application
 
@@ -100,7 +100,7 @@ This will start the web service, exposing endpoints for text summarization.
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 1. **Build the Docker Image**
 
@@ -118,7 +118,7 @@ This will start the service inside a Docker container, accessible at `http://loc
 
 ---
 
-## 📄 Configuration Files
+## Configuration Files
 
 - **`config/config.yaml`**: Contains general configuration settings for the application.
 - **`parameters.yaml`**: Holds parameters specific to the summarization process, such as model settings.
@@ -127,7 +127,7 @@ Ensure these files are properly configured before running the application.
 
 ---
 
-## 🧰 Utilities
+## Utilities
 
 - **`folder_template.py`**: Script to set up the project directory structure with necessary files and folders.
 - **Logging**: Implemented using Python's `logging` module, with logs stored as per configurations in the `logging/` directory.
